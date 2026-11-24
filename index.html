@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[ISM FAMILIYA] — Frontend Developer Portfolio</title>
+<meta name="description" content="[ISM FAMILIYA] — frontend dasturchi. Loyihalar, ko'nikmalar va aloqa ma'lumotlari.">
+<meta name="keywords" content="portfolio, frontend developer, HTML, CSS, JavaScript, Bootstrap">
+<meta name="author" content="[ISM FAMILIYA]">
+<meta property="og:title" content="[ISM FAMILIYA] — Portfolio">
+<meta property="og:description" content="Frontend dasturchi portfolio sayti.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#080808">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div id="preloader"><div class="pre-name">[ISMIM]</div><div class="pre-bar"><span></span></div></div>
+<div class="cursor-dot"></div><div class="cursor-ring"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top" id="nav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">[ISMIM / LOGO]</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menyu"><i class="fa-solid fa-bars"></i></button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#home">Bosh sahifa</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Men haqimda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Ko'nikmalar</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Loyihalar</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Aloqa</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="orb orb1"></div><div class="orb orb2"></div>
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <p class="hero-hi">Salom, men</p>
+        <h1 class="hero-name">[ISM FAMILIYAM]</h1>
+        <p class="hero-role"><span id="typing"></span><span class="caret"></span></p>
+        <p class="hero-text">[O'ZIM HAQIMDA 2–3 QATORLI QISQA TA'RIF]</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#about" class="btn-x btn-light-x">Men haqimda</a>
+          <a href="#projects" class="btn-x btn-ghost-x">Loyihalarimni ko'rish</a>
+          <a href="cv.pdf" download class="btn-x btn-ghost-x"><i class="fa-solid fa-download me-2"></i>CV yuklab olish</a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-photo tilt"><img src="https://placehold.co/600x720/171717/A0A0A0?text=SHAXSIY+RASM" alt="[Shaxsiy rasm]"></div>
+      </div>
+    </div>
+    <div class="row g-3 stats">
+      <div class="col-6 col-md-3"><div class="stat glass"><b class="count" data-count="0">0</b><span>[Loyihalar soni]</span></div></div>
+      <div class="col-6 col-md-3"><div class="stat glass"><b class="count" data-count="0">0</b><span>[Tajriba (yil)]</span></div></div>
+      <div class="col-6 col-md-3"><div class="stat glass"><b class="count" data-count="0">0</b><span>[Sertifikatlar]</span></div></div>
+      <div class="col-6 col-md-3"><div class="stat glass"><b class="count" data-count="0">0</b><span>[Texnologiyalar]</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <div class="container">
+    <h2 class="sec-title reveal">Men haqimda</h2>
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 reveal"><div class="about-photo tilt"><img src="https://placehold.co/600x700/171717/A0A0A0?text=QO'SHIMCHA+RASM" alt="[Qo'shimcha rasm]"></div></div>
+      <div class="col-lg-7 reveal">
+        <div class="row g-3 info">
+          <div class="col-sm-6"><div class="glass"><small>To'liq ism-familiya</small><p>[ISM FAMILIYA]</p></div></div>
+          <div class="col-sm-6"><div class="glass"><small>Yosh</small><p>[YOSH]</p></div></div>
+          <div class="col-sm-6"><div class="glass"><small>Yashash joyi</small><p>[SHAHAR]</p></div></div>
+          <div class="col-sm-6"><div class="glass"><small>Tug'ilgan sana</small><p>[SANA]</p></div></div>
+          <div class="col-12"><div class="glass"><small>Ta'lim</small><p>[TA'LIM HAQIDA]</p></div></div>
+          <div class="col-12"><div class="glass"><small>Hozirgi faoliyatim</small><p>[FAOLIYAT]</p></div></div>
+          <div class="col-sm-6"><div class="glass"><small>Qiziqishlarim</small><p>[QIZIQISHLAR]</p></div></div>
+          <div class="col-sm-6"><div class="glass"><small>Kelajakdagi maqsadlarim</small><p>[MAQSADLAR]</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS (foizni data-level orqali o'zgartiring) -->
+<section id="skills" class="sec alt">
+  <div class="container">
+    <h2 class="sec-title reveal">Ko'nikmalarim</h2>
+    <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-brands fa-html5"></i><h5>HTML</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-brands fa-css3-alt"></i><h5>CSS</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-brands fa-js"></i><h5>JavaScript</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-brands fa-bootstrap"></i><h5>Bootstrap</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-solid fa-code"></i><h5>jQuery</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-brands fa-react"></i><h5>React</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-brands fa-php"></i><h5>PHP</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+      <div class="col-6 col-md-4 col-lg-3 reveal"><div class="skill glass tilt"><i class="fa-solid fa-plus"></i><h5>[QO'SHIMCHA TEXNOLOGIYA]</h5><div class="bar"><span data-level="0"></span></div><em>0%</em></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS: yangi loyiha qo'shish uchun bitta .project bloki nusxalang -->
+<section id="projects" class="sec">
+  <div class="container">
+    <h2 class="sec-title reveal">Mening loyihalarim</h2>
+    <div class="owl-carousel owl-theme" id="projectSlider">
+
+      <div class="project">
+        <div class="p-img"><img src="https://placehold.co/800x500/171717/A0A0A0?text=ChefFood" alt="ChefFood"><div class="p-over"><a href="https://fastfoodn7.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a></div></div>
+        <div class="p-body"><h4>ChefFood — Fast Food Website</h4><p>Fast food buyurtmalari uchun yaratilgan veb-sayt.</p><div class="tags"><span>[TEXNOLOGIYALAR]</span></div>
+        <div class="d-flex gap-2"><a href="https://fastfoodn7.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a><a href="[GITHUB HAVOLA]" target="_blank" rel="noopener" class="btn-x btn-ghost-x"><i class="fa-brands fa-github"></i> GitHub</a></div></div>
+      </div>
+
+      <div class="project">
+        <div class="p-img"><img src="https://placehold.co/800x500/171717/A0A0A0?text=RealSayt" alt="RealSayt"><div class="p-over"><a href="https://realsayt.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a></div></div>
+        <div class="p-body"><h4>RealSayt</h4><p>[KEYINCHALIK O'ZIM TO'LDIRAMAN]</p><div class="tags"><span>[TEXNOLOGIYALAR]</span></div>
+        <div class="d-flex gap-2"><a href="https://realsayt.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a><a href="[GITHUB HAVOLA]" target="_blank" rel="noopener" class="btn-x btn-ghost-x"><i class="fa-brands fa-github"></i> GitHub</a></div></div>
+      </div>
+
+      <div class="project">
+        <div class="p-img"><img src="https://placehold.co/800x500/171717/A0A0A0?text=Frontend+124" alt="Frontend 124 Group"><div class="p-over"><a href="https://frontend124-guruh.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a></div></div>
+        <div class="p-body"><h4>Frontend 124 Group</h4><p>[KEYINCHALIK O'ZIM TO'LDIRAMAN]</p><div class="tags"><span>[TEXNOLOGIYALAR]</span></div>
+        <div class="d-flex gap-2"><a href="https://frontend124-guruh.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a><a href="[GITHUB HAVOLA]" target="_blank" rel="noopener" class="btn-x btn-ghost-x"><i class="fa-brands fa-github"></i> GitHub</a></div></div>
+      </div>
+
+      <div class="project">
+        <div class="p-img"><img src="https://placehold.co/800x500/171717/A0A0A0?text=Responsive+2" alt="Responsive 2-Qism"><div class="p-over"><a href="https://responsive2-qism.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a></div></div>
+        <div class="p-body"><h4>Responsive 2-Qism</h4><p>[KEYINCHALIK O'ZIM TO'LDIRAMAN]</p><div class="tags"><span>[TEXNOLOGIYALAR]</span></div>
+        <div class="d-flex gap-2"><a href="https://responsive2-qism.netlify.app/" target="_blank" rel="noopener" class="btn-x btn-light-x">Live Demo</a><a href="[GITHUB HAVOLA]" target="_blank" rel="noopener" class="btn-x btn-ghost-x"><i class="fa-brands fa-github"></i> GitHub</a></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="sec alt">
+  <div class="container">
+    <h2 class="sec-title reveal">Tajribam</h2>
+    <div class="row g-4">
+      <div class="col-md-6 reveal"><div class="glass exp"><h5><i class="fa-solid fa-book-open"></i> O'rgangan kurslarim</h5><p>[KURS NOMI — YIL]</p></div></div>
+      <div class="col-md-6 reveal"><div class="glass exp"><h5><i class="fa-solid fa-school"></i> O'qigan markazlarim</h5><p>[MARKAZ NOMI — YIL]</p></div></div>
+      <div class="col-md-6 reveal"><div class="glass exp"><h5><i class="fa-solid fa-briefcase"></i> Amaliy tajribalarim</h5><p>[TAJRIBA HAQIDA]</p></div></div>
+      <div class="col-md-6 reveal"><div class="glass exp"><h5><i class="fa-solid fa-certificate"></i> Sertifikatlarim</h5><p>[SERTIFIKAT NOMI — YIL]</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY: rasmni almashtirish uchun src ni o'zgartiring -->
+<section id="gallery" class="sec">
+  <div class="container">
+    <h2 class="sec-title reveal">Galereya</h2>
+    <div class="row g-3" id="gallery-grid">
+      <div class="col-6 col-md-4 reveal"><div class="g-item"><img src="https://placehold.co/700x600/171717/A0A0A0?text=1-RASM" alt="1-rasm"></div></div>
+      <div class="col-6 col-md-4 reveal"><div class="g-item"><img src="https://placehold.co/700x600/171717/A0A0A0?text=2-RASM" alt="2-rasm"></div></div>
+      <div class="col-6 col-md-4 reveal"><div class="g-item"><img src="https://placehold.co/700x600/171717/A0A0A0?text=3-RASM" alt="3-rasm"></div></div>
+      <div class="col-6 col-md-4 reveal"><div class="g-item"><img src="https://placehold.co/700x600/171717/A0A0A0?text=4-RASM" alt="4-rasm"></div></div>
+      <div class="col-6 col-md-4 reveal"><div class="g-item"><img src="https://placehold.co/700x600/171717/A0A0A0?text=5-RASM" alt="5-rasm"></div></div>
+      <div class="col-6 col-md-4 reveal"><div class="g-item"><img src="https://placehold.co/700x600/171717/A0A0A0?text=6-RASM" alt="6-rasm"></div></div>
+    </div>
+  </div>
+</section>
+<div id="lightbox"><button aria-label="Yopish">&times;</button><img src="" alt=""></div>
+
+<!-- CONTACT -->
+<section id="contact" class="sec alt">
+  <div class="container">
+    <h2 class="sec-title reveal">Aloqa</h2>
+    <div class="row g-5">
+      <div class="col-lg-5 reveal">
+        <a class="c-link glass" href="tel:+998900000000"><i class="fa-solid fa-phone"></i><span>+998 90 000 00 00</span></a>
+        <a class="c-link glass" href="mailto:admin@gmail.com"><i class="fa-solid fa-envelope"></i><span>admin@gmail.com</span></a>
+        <a class="c-link glass" href="https://github.com/abdurahmonturgunboyev54-afk" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+        <a class="c-link glass" href="https://instagram.com/azamatvc01" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+        <a class="c-link glass" href="https://t.me/azamatvc01" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i><span>Telegram</span></a>
+      </div>
+      <div class="col-lg-7 reveal">
+        <form id="contactForm" class="glass form" novalidate>
+          <input type="text" id="cName" placeholder="Ismingiz" required>
+          <input type="email" id="cEmail" placeholder="Email manzilingiz" required>
+          <textarea id="cMsg" rows="5" placeholder="Xabar" required></textarea>
+          <p class="form-note" id="formNote">Yuborish tugmasi pochta dasturingizni tayyor xat bilan ochadi. Saytda server yo'q, xabar avtomatik yuborilmaydi.</p>
+          <button type="submit" class="btn-x btn-light-x">Yuborish</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row align-items-center g-3">
+      <div class="col-md-4"><a class="navbar-brand" href="#home">[ISMIM / LOGO]</a></div>
+      <div class="col-md-4 f-links"><a href="#about">Men haqimda</a><a href="#skills">Ko'nikmalar</a><a href="#projects">Loyihalar</a><a href="#contact">Aloqa</a></div>
+      <div class="col-md-4 f-soc">
+        <a href="https://github.com/abdurahmonturgunboyev54-afk" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/azamatvc01" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://t.me/azamatvc01" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+    <p class="copy">© 2026 [ISMIM]. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Yuqoriga"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
